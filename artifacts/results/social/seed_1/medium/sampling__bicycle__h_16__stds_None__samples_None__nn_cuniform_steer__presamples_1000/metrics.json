@@ -1,0 +1,21 @@
+{
+    "controller_name": "sampling__bicycle__h_16__stds_None__samples_None__nn_cuniform_steer__presamples_1000",
+    "success_rate": {
+        "total": 0.21666666666666667,
+        "random": 0.2,
+        "parallel": 0.12,
+        "circular": 0.33
+    },
+    "average_success_time": {
+        "total": 14.213333333333333,
+        "random": 9.38,
+        "parallel": 7.27,
+        "circular": 25.99
+    },
+    "average_timeout_rate": {
+        "total": 0.016666666666666666,
+        "random": 0.05,
+        "parallel": 0.0,
+        "circular": 0.0
+    }
+}

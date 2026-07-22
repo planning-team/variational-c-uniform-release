@@ -1,0 +1,21 @@
+{
+    "controller_name": "logmppi__bicycle__h_16__stds_high__samples_5000__nf_steer__presamples_1000",
+    "success_rate": {
+        "total": 0.39666666666666667,
+        "random": 0.34,
+        "parallel": 0.4,
+        "circular": 0.45
+    },
+    "average_success_time": {
+        "total": 17.033333333333335,
+        "random": 17.33,
+        "parallel": 17.56,
+        "circular": 16.21
+    },
+    "average_timeout_rate": {
+        "total": 0.0033333333333333335,
+        "random": 0.01,
+        "parallel": 0.0,
+        "circular": 0.0
+    }
+}

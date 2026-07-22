@@ -1,0 +1,21 @@
+{
+    "controller_name": "logmppi__unicycle__h_26__stds_low__samples_2500__nf_steer__presamples_1000",
+    "success_rate": {
+        "total": 0.26,
+        "random": 0.25,
+        "parallel": 0.23,
+        "circular": 0.3
+    },
+    "average_success_time": {
+        "total": 12.21,
+        "random": 12.59,
+        "parallel": 12.39,
+        "circular": 11.65
+    },
+    "average_timeout_rate": {
+        "total": 0.0,
+        "random": 0.0,
+        "parallel": 0.0,
+        "circular": 0.0
+    }
+}

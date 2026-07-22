@@ -1,0 +1,9 @@
+{
+    "dynamics": "unicycle",
+    "controller_type": "sampling",
+    "horizon": 26,
+    "n_samples": null,
+    "stds_set": null,
+    "presampler_type": "fm_steer",
+    "n_presamples": 500
+}

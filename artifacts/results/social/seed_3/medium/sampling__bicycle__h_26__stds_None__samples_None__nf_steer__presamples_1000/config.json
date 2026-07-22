@@ -1,0 +1,9 @@
+{
+    "dynamics": "bicycle",
+    "controller_type": "sampling",
+    "horizon": 26,
+    "n_samples": null,
+    "stds_set": null,
+    "presampler_type": "nf_steer",
+    "n_presamples": 1000
+}

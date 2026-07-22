@@ -1,0 +1,21 @@
+{
+    "controller_name": "sampling__bicycle__h_26__stds_None__samples_None__fm_steer__presamples_1000",
+    "success_rate": {
+        "total": 0.06333333333333334,
+        "random": 0.03,
+        "parallel": 0.13,
+        "circular": 0.03
+    },
+    "average_success_time": {
+        "total": 5.3,
+        "random": 2.67,
+        "parallel": 12.5,
+        "circular": 0.73
+    },
+    "average_timeout_rate": {
+        "total": 0.12333333333333334,
+        "random": 0.14,
+        "parallel": 0.04,
+        "circular": 0.19
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "controller_name": "sampling__bicycle__h_26__stds_None__samples_None__nf__presamples_500",
+    "success_rate": {
+        "total": 0.38,
+        "random": 0.35,
+        "parallel": 0.33,
+        "circular": 0.46
+    },
+    "average_success_time": {
+        "total": 17.21,
+        "random": 18.21,
+        "parallel": 14.9,
+        "circular": 18.52
+    },
+    "average_timeout_rate": {
+        "total": 0.0,
+        "random": 0.0,
+        "parallel": 0.0,
+        "circular": 0.0
+    }
+}

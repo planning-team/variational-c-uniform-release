@@ -1,0 +1,21 @@
+{
+    "controller_name": "sampling__unicycle__h_16__stds_None__samples_None__nf_steer__presamples_500",
+    "success_rate": {
+        "total": 0.27,
+        "random": 0.24,
+        "parallel": 0.2,
+        "circular": 0.37
+    },
+    "average_success_time": {
+        "total": 10.763333333333334,
+        "random": 10.34,
+        "parallel": 10.54,
+        "circular": 11.41
+    },
+    "average_timeout_rate": {
+        "total": 0.0,
+        "random": 0.0,
+        "parallel": 0.0,
+        "circular": 0.0
+    }
+}

@@ -1,0 +1,29 @@
+[project]
+name = "mppi-plus-proto"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autoroot>=1.0.1",
+    "autorootcwd>=1.0.1",
+    "fire>=0.7.1",
+    "flow-matching>=1.0.10",
+    "ipynbname>=2025.8.0.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.6",
+    "normflows>=1.7.3",
+    "omegaconf>=2.3.0",
+    "oo-ctrl-py",
+    "pyminisim",
+    "pyrvo2",
+    "seaborn>=0.13.2",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv.sources]
+pyminisim = { path = "../pyminisim", editable = true }
+pyrvo2 = { git = "https://github.com/sybrenstuvel/Python-RVO2.git" }
+oo-ctrl-py = { path = "../oo-ctrl-py", editable = true }

@@ -1,0 +1,21 @@
+{
+    "controller_name": "mppi__unicycle__h_26__stds_low__samples_2500",
+    "success_rate": {
+        "total": 0.19666666666666666,
+        "random": 0.22,
+        "parallel": 0.17,
+        "circular": 0.2
+    },
+    "average_success_time": {
+        "total": 7.3933333333333335,
+        "random": 10.4,
+        "parallel": 5.84,
+        "circular": 5.94
+    },
+    "average_timeout_rate": {
+        "total": 0.0,
+        "random": 0.0,
+        "parallel": 0.0,
+        "circular": 0.0
+    }
+}

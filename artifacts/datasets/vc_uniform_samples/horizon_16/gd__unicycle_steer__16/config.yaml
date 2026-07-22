@@ -1,0 +1,36 @@
+dynamics:
+  type: unicycle_steer
+  params:
+    dt: 0.2
+    speed: 1.0
+    angle_repr: cos_sin
+    wrap_angle: true
+  action_lb:
+  - -0.7853981633974483
+  action_ub:
+  - 0.7853981633974483
+  action_std:
+  - 0.13962634015954636
+horizon: 16
+samplers:
+- type: gd
+  num_steps: 100
+  lr: 0.1
+  bandwidth: 0.1
+- type: multi_select_gd
+  n_base_samples: 1000
+  n_children: 10
+  n_child_samples: 1000
+  action_std:
+  - 0.13962634015954636
+n_vis_samples: 1000
+output_root: outputs/
+output_name: null
+--device: null
+cuda: null
+--overwrite: null
+--output_root: null
+outputs/: null
+--cfg: null
+configs/gd/horizon_16/unicycle_steer:
+  yaml: null

@@ -1,0 +1,9 @@
+{
+    "dynamics": "bicycle",
+    "controller_type": "mppi",
+    "horizon": 26,
+    "n_samples": 5000,
+    "stds_set": "low",
+    "presampler_type": "nf",
+    "n_presamples": 500
+}

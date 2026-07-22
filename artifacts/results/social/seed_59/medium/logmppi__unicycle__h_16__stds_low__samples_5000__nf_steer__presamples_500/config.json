@@ -1,0 +1,9 @@
+{
+    "dynamics": "unicycle",
+    "controller_type": "logmppi",
+    "horizon": 16,
+    "n_samples": 5000,
+    "stds_set": "low",
+    "presampler_type": "nf_steer",
+    "n_presamples": 500
+}

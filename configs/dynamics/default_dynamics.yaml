@@ -1,0 +1,71 @@
+# Default configurations for unicycle/bicycle models.
+# Conventions:
+# - DT is set 0.2 for all
+# - Angle is wrapped to [-pi, pi] for all
+# - Backend and Device are omitted here
+
+
+unicycle_steer:
+  type: "unicycle_steer"
+  params:
+    dt: 0.2
+    speed: 1.
+    angle_repr: "cos_sin"
+    wrap_angle: true
+  action_lb:
+    - "${deg2rad: -45.}"
+  action_ub:
+    - "${deg2rad: 45.}"
+  action_std:
+    - "${deg2rad: 8.}"
+
+
+unicycle:
+  type: "unicycle"
+  params:
+    dt: 0.2
+    angle_repr: "cos_sin"
+    wrap_angle: true
+  action_lb:
+    - 0.1
+    - "${deg2rad: -45.}"
+  action_ub:
+    - 1.0
+    - "${deg2rad: 45.}"
+  action_std:
+    - 0.04
+    - "${deg2rad: 8.}"
+
+
+bicycle_steer:
+  type: "bicycle_steer"
+  params:
+    dt: 0.2
+    l: 0.324
+    speed: 1.
+    angle_repr: "cos_sin"
+    wrap_angle: true
+  action_lb:
+    - "${deg2rad: -30.}"
+  action_ub:
+    - "${deg2rad: 30.}"
+  action_std:
+    - "${deg2rad: 6.}"
+
+
+bicycle:
+  type: "bicycle"
+  params:
+    dt: 0.2
+    l: 0.324
+    angle_repr: "cos_sin"
+    wrap_angle: true
+  action_lb:
+    - 0.1
+    - "${deg2rad: -30.}"
+  action_ub:
+    - 1.0
+    - "${deg2rad: 30.}"
+  action_std:
+    - 0.04
+    - "${deg2rad: 6.}"

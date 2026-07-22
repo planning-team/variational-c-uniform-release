@@ -1,0 +1,21 @@
+{
+    "controller_name": "mppi__bicycle__h_26__stds_high__samples_2500__fm_steer__presamples_1000",
+    "success_rate": {
+        "total": 0.3466666666666667,
+        "random": 0.33,
+        "parallel": 0.31,
+        "circular": 0.4
+    },
+    "average_success_time": {
+        "total": 19.173333333333332,
+        "random": 21.92,
+        "parallel": 17.31,
+        "circular": 18.29
+    },
+    "average_timeout_rate": {
+        "total": 0.0,
+        "random": 0.0,
+        "parallel": 0.0,
+        "circular": 0.0
+    }
+}

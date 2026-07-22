@@ -1,0 +1,28 @@
+seed: 1
+
+n_samples: 100
+
+samplers:
+  random: !RandomCrossingSampler
+    world_size: `(8, 8)`
+    n_pedestrians: 7
+    min_pedestrian_goal_distance: 3.
+    min_robot_goal_distance: 4.
+    min_agents_distance: 0.1
+
+  circular: !CircularCrossingSampler
+    n_pedestrians: 7
+    outer_radius: 3.7
+    outer_width: 1.
+    inner_radius: 3.3
+    pedestrian_angle_offset_magnitude: `0.17453292519943295`
+    min_agents_distance: 0.1
+
+  parallel: !ParallelCrossingSampler
+    n_pedestrians: 7
+    world_size: `(8, 8)`
+    side_area_width: 1.
+    central_area_width: 2.
+    pedestrian_goal_noise_offset: 0.3
+    min_robot_goal_distance: 4.
+    min_agents_distance: 0.1

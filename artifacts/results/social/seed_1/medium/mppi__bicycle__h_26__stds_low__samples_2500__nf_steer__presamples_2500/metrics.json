@@ -1,0 +1,21 @@
+{
+    "controller_name": "mppi__bicycle__h_26__stds_low__samples_2500__nf_steer__presamples_2500",
+    "success_rate": {
+        "total": 0.3333333333333333,
+        "random": 0.29,
+        "parallel": 0.26,
+        "circular": 0.45
+    },
+    "average_success_time": {
+        "total": 16.98,
+        "random": 14.45,
+        "parallel": 15.44,
+        "circular": 21.05
+    },
+    "average_timeout_rate": {
+        "total": 0.0,
+        "random": 0.0,
+        "parallel": 0.0,
+        "circular": 0.0
+    }
+}

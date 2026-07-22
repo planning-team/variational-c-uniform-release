@@ -1,0 +1,21 @@
+{
+    "controller_name": "mppi__bicycle__h_16__stds_high__samples_5000",
+    "success_rate": {
+        "total": 0.36666666666666664,
+        "random": 0.28,
+        "parallel": 0.41,
+        "circular": 0.41
+    },
+    "average_success_time": {
+        "total": 13.693333333333333,
+        "random": 13.34,
+        "parallel": 15.62,
+        "circular": 12.12
+    },
+    "average_timeout_rate": {
+        "total": 0.05,
+        "random": 0.09,
+        "parallel": 0.06,
+        "circular": 0.0
+    }
+}

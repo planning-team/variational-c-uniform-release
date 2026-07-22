@@ -1,0 +1,9 @@
+{
+    "dynamics": "unicycle",
+    "controller_type": "mppi",
+    "horizon": 16,
+    "n_samples": 5000,
+    "stds_set": "low",
+    "presampler_type": "fm_steer",
+    "n_presamples": 1000
+}

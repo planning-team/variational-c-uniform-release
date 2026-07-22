@@ -1,0 +1,23 @@
+dynamics: "${include: configs/dynamics/default_dynamics.yaml, bicycle_steer}"
+
+dataset: "/home/me/data/datasets/vc_uniform_samples/horizon_26/gd__bicycle_steer__26"
+
+velocity_network:
+  hidden_dim: 512
+  n_layers: 3
+  activation: "silu"
+  init_method: null
+
+preprocess:
+  normalization: "std"
+
+training:
+  lr: 0.001
+  batch_size: 256
+  n_epochs: 256
+  print_every_step: 2000
+
+n_vis_samples: 1000
+
+output_root: ???
+output_name: null  # Will be generated automatically
